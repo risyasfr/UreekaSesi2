@@ -23,7 +23,7 @@ export default function Contact() {
             Contact Information
         </h1>
         <link href={"mailto:risyasfr@gmail.com"} className="z-10">
-            <Button size={"lg"}>
+            <Button className="hover:bg-neutral-600" size={"lg"}>
                 Send me an Email <Mail className="size-5 ml-2"/>
             </Button>
         </link>
